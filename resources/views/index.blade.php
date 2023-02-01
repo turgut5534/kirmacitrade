@@ -27,7 +27,7 @@ p {text-align: justify;}
 .language {
   position: absolute;
   right: 30px;
-  top: 50px;
+  top: 20px;
 }
 </style>
 
@@ -64,6 +64,7 @@ p {text-align: justify;}
     <select class="form-control changeLang">
         <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>English</option>
         <option value="tr" {{ session()->get('locale') == 'tr' ? 'selected' : '' }}>Türkçe</option>
+        <option value="ru" {{ session()->get('locale') == 'ru' ? 'selected' : '' }}>русский</option>
         <option value="ar" {{ session()->get('locale') == 'ar' ? 'selected' : '' }}>عربى</option>
     </select>
   
@@ -79,7 +80,7 @@ p {text-align: justify;}
 </div>
 <div class="w3-display-bottomright w3-container w3-right-align">
 <p class="w3-medium w3-right-align">Hançerli Mah. Dervişzade Sk. No:6 Kat:7 Daire:10<br>İlkadım, Samsun, Türkiye</p>
-<p class="w3-xlarge w3-right-align w3-text-red"><a href="/cdn-cgi/l/email-protection#75100d1c18351e1c071814161c5b161a185b0107" style="text-decoration: none" target="_blank"><span class="__cf_email__" data-cfemail="fe9b869793be95978c939f9d97d09d9193d08a8c">exim@kirmaci.com.tr
+<p class="w3-xlarge w3-right-align w3-text-red"><a href="mailto:exim@kirmaci.com.tr" style="text-decoration: none" target="_blank"><span>exim@kirmaci.com.tr
 </span></a></p>
 <p class="w3-xlarge w3-right-align w3-text-yellow"><a href="tel:+903624471447" style="text-decoration: none" target="_blank">+90 362 447 1 447</a></p>
 </div>
@@ -252,7 +253,7 @@ p {text-align: justify;}
 <h1>{{ __('contact.contact_info') }}</h1>
 </div>
 <div class="w3-container w3-justify">
-<h5><b>Kırmacı İletişim Gıda Limited Şirketi</b><br><br>Gaziler Vergi Dairesi : <b>385 065 3242</b><br>Tic.Sic.No: <b>32580</b><br>Mersis No: <b>0385 0653 2420 0019</b><br><br>Hançerli Mah. Dervişzade Sk. No:6 Kat:7 Daire:10<br>İlkadım, Samsun, Türkiye<br><br><a class="w3-text-blue-gray" href="/cdn-cgi/l/email-protection#2c495445416c47455e414d4f45024f434102585e" style="text-decoration: none" target="_blank"><span class="__cf_email__" data-cfemail="1e7b6677735e75776c737f7d77307d7173306a6c">exim@kirmaci.com.tr</span></a><br><br><a class="w3-text-orange" href="https://wa.me/903624471447" style="text-decoration: none" target="_blank"><b>+90 362 447 1 447</b></a> <span class="w3-small">( Tel & Fax & Whatsapp )</span></h5>
+<h5><b>Kırmacı İletişim Gıda Limited Şirketi</b><br><br>Gaziler Vergi Dairesi : <b>385 065 3242</b><br>Tic.Sic.No: <b>32580</b><br>Mersis No: <b>0385 0653 2420 0019</b><br><br>Hançerli Mah. Dervişzade Sk. No:6 Kat:7 Daire:10<br>İlkadım, Samsun, Türkiye<br><br><a class="w3-text-blue-gray" href="mailto:exim@kirmaci.com.tr" style="text-decoration: none" target="_blank"><span>exim@kirmaci.com.tr</span></a><br><br><a class="w3-text-orange" href="https://wa.me/903624471447" style="text-decoration: none" target="_blank"><b>+90 362 447 1 447</b></a> <span class="w3-small">( Tel & Fax & Whatsapp )</span></h5>
 <br>
 </div>
 </div>
